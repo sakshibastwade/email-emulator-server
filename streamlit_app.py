@@ -1,8 +1,9 @@
 \
-        # streamlit_app.py
-        import streamlit as st
-        import requests
-        import os
+# streamlit_app.py
+import streamlit as st
+import requests
+import os
+
 
         API_BASE = os.getenv("EMAIL_SIM_API", "http://localhost:8000")
         API_KEY = os.getenv("API_KEY", "changeme")
